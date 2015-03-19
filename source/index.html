@@ -9,13 +9,16 @@
       }
       body {
         max-width: 30em;
-        margin: 0 auto;
+        margin: 1em auto;
         font-family: "Source Sans Pro", sans-serif;
         font-size: 20px;
         line-height: 1.6em;
         font-weight: 300;
         color: #333; /* fallback for older browsers */
         color: hsla(0, 0%, 17.5%, 1);
+      }
+      .logo {
+        width: 35%;
       }
       legend {
         margin: 1em 0 0 0;
@@ -35,7 +38,7 @@
         font-weight: inherit;
         border-radius: 0.25em;
       }
-      input[type=button] {
+      input[type=submit] {
         color: #fff; /* fallback */
         color: hsla(0, 0%, 100%, 1);
         background-color: #00f; /* fallback */
@@ -56,6 +59,7 @@
     </style>
   </head>
   <body>
+    <img class="logo" src="Cantina.svg" onerror="this.src='1500x500-CantinaLogo.png'">
     <p>
       Cantina is a Boston-based digital design and development agency. Listening first to determine business outcomes, our approach then combines the best in design and architecture with full stack development capabilities. This unique duality provides clients with an independent, high quality, and fully accountable long-term business technology partner.
     </p>
@@ -79,7 +83,7 @@
         <input type="checkbox" name="interest" value=""> I need help with technical architecture<br>
         <input type="checkbox" name="interest" value=""> I need help with software development &amp; delivery<br>
       </fieldset>
-      <input type="button" name="submit" value="Enter the raffle!">
+      <input type="submit" name="submit" value="Enter the raffle!">
     </form>
   </body>
 </html>
