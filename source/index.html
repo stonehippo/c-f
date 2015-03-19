@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cantina: Forrester Marketing Forum 2015</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        max-width: 30em;
+        margin: 0 auto;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 20px;
+        line-height: 1.6em;
+        font-weight: 300;
+        color: #333; /* fallback for older browsers */
+        color: hsla(0, 0%, 17.5%, 1);
+      }
+      legend {
+        margin: 1em 0 0 0;
+        font-weight: 700;
+      }
+      fieldset {
+        border: none;
+        padding: 0;
+      }
+      input {
+        width: 100%;
+        border: 1px solid lightgray;
+        padding: 0.5em;
+        border-radius: 0.25em;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        border-radius: 0.25em;
+      }
+      input[type=button] {
+        color: #fff; /* fallback */
+        color: hsla(0, 0%, 100%, 1);
+        background-color: #00f; /* fallback */
+        background-color: hsla(240, 50%, 75%, 1);
+        border: none;
+        margin: 1em 0;
+      }
+      input[type=checkbox] {
+        width:auto;
+      }
+      label {
+        display: block;
+        margin: 1em 0 0 0;
+      }
+      label:nth-of-type(1) {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Cantina is a Boston-based digital design and development agency. Listening first to determine business outcomes, our approach then combines the best in design and architecture with full stack development capabilities. This unique duality provides clients with an independent, high quality, and fully accountable long-term business technology partner.
+    </p>
+    <p>
+      <i>This is where we'll put some things about the raffle stuff</i>
+    </p>
+    <form class="" action="index.html" method="post">
+      <legend>Please tell us a little bit about you and we'll enter you in the raffle</legend>
+      <fieldset>
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" placeholder="what should we call you?">
+        <label for="company">Your Company</label>
+        <input id="company" type="text" name="company" placeholder="where do you work?">
+        <label for="">Your Email</label>
+        <input id="email" type="text" name="email" placeholder="you@yourdomain.com">
+      </fieldset>
+      <legend>What can we help you with? (optional, of course)</legend>
+      <fieldset>
+        <input type="checkbox" name="interest" value=""> I need help with user research<br>
+        <input type="checkbox" name="interest" value=""> I need help with experience design<br>
+        <input type="checkbox" name="interest" value=""> I need help with technical architecture<br>
+        <input type="checkbox" name="interest" value=""> I need help with software development &amp; delivery<br>
+      </fieldset>
+      <input type="button" name="submit" value="Enter the raffle!">
+    </form>
+  </body>
+</html>
