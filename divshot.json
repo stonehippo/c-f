@@ -1,0 +1,9 @@
+{
+  "name": "cantina-forrester",
+  "root": "./source",
+  "clean_urls": true,
+  "cache_controls": {},
+  "routes": {
+    "**": "index.html"
+  }
+}
