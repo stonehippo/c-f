@@ -11,7 +11,6 @@ var Raffle = (function() {
       var lead = that.parseLead(this);
       if(that.leadIsValid(lead)) {
         that.saveLead(lead);
-        document.location = "thanks.html";
       } else {
         that.invalidateLeadForm(lead);
       }
@@ -69,7 +68,7 @@ var Raffle = (function() {
       var LeadClass = Parse.Object.extend("Lead");
       var lead = new LeadClass();
       lead.save(newLead).then(function(object) {
-        // do something with this promise
+        document.location = "thanks.html";
       });
     }
   };

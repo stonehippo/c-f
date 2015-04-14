@@ -15,15 +15,20 @@ body {
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size:1.1em;
+  margin-bottom: 0;
 }
 
 img {
-  width: 100%;
+  width: 20%;
 }
 .logo {
   width: 40%;
@@ -35,6 +40,10 @@ fieldset {
   margin: 1em 0 0 0;
   border: none;
   padding: 0;
+}
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 input {
   width: 100%;
@@ -74,6 +83,14 @@ label:nth-of-type(1) {
 
 .disclaimer {
   font-size: .8em;
+}
+
+.prizes {
+  text-align: center;
+}
+
+img.focus {
+  width: 33%;
 }
 
 @media screen and (min-width: 40em) {
